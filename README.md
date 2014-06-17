@@ -45,3 +45,10 @@ but that's not guaranteed.
 
 FireSass currently requires the development version of Sass,
 available from [GitHub](http://github.com/nex3/haml).
+
+
+## How to Compile extention
+
+Firefox extensions are delivered like XPI files, and those are basically just ZIP files with another extension. Therefore, when you’re finished with your extension, all you need to do is ZIP your files together and give it an XPI extension. Note: do not ZIP the containing folder for your extension, just its contents (chrome folder, chrome.manifest and install.rdf files etc).
+
+Once you have your XPI file, you can just drag and drop it into Firefox (Extentions page), and it will automatically install.
